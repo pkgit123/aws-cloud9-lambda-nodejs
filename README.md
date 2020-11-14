@@ -30,6 +30,15 @@ Notes from AWS Tutorial Debug Serverless App with IDE in Cloud9
 1. Run or debug the function locally
    * Lambda pane: AWS Resources -> Right click on lambda function name -> Run -> Run local
    * Add payload, see file in repo `payload1.js`
+   * Review results from Lambda execution
+   * Run Lambda again in debug mode 
+   * Add `Watch Expressions` 
+      * `event.option`
+      * `event.period`
+      * `sc`
+      * `response.body`
+   * Add breakpoint to line 62 `callback` -> use other payloads
+   * Review results in debug window and code window
    
 
 ### References:
