@@ -40,6 +40,9 @@ Notes from AWS Tutorial Debug Serverless App with IDE in Cloud9
    * Add breakpoint to line 62 `callback` -> use other payloads
    * Review results in debug window and code window
    
+### Continue from here:
+* https://docs.aws.amazon.com/cloud9/latest/user-guide/tutorial-lambda-run-or-debug-local-api.html
+   
 
 ### References:
 * AWS Hand-On Tutorials.  Locally Debug a Serverless Application from an IDE.  https://aws.amazon.com/getting-started/hands-on/locally-debug-serverless-app-ide-cloud9/
