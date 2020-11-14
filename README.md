@@ -13,6 +13,23 @@ Notes from AWS Tutorial Debug Serverless App with IDE in Cloud9
 * API Gateway
 * Lambda
 
+### Steps in Tutorial:
+1. Create AWS Cloud9 environment
+   * Amazon Linux 2
+   * EC2 direct access
+1. Create AWS Lambda Function
+   * Lambda pane: AWS Resources -> Create Lambda function
+      * Node.js 12.x
+      * Blueprint is empty nodejs
+      * Function trigger is API Gateway
+      * Resource path is /
+1. Add code to Lambda function
+   * See the file in repo `index.js`
+1. Run or debug the function locally
+   * Lambda pane: AWS Resources -> Right click on lambda function name -> Run -> Run local
+   * Add payload, see file in repo `payload1.js`
+   
+
 ### References:
 * AWS Hand-On Tutorials.  Locally Debug a Serverless Application from an IDE.  https://aws.amazon.com/getting-started/hands-on/locally-debug-serverless-app-ide-cloud9/
 * AWS Cloud9 Tutorials.  https://docs.aws.amazon.com/cloud9/latest/user-guide/tutorials.html
