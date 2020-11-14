@@ -4,7 +4,7 @@ Notes from AWS Tutorial Debug Serverless App with IDE in Cloud9
 * This came from the AWS Hands-On Tutorials, search for "Cloud9".
 * Also review the long list of Cloud9 tutorials, see link below.
 
-# AWS Infrastructure: 
+### AWS Infrastructure: 
 * Cloud9
 * API Gateway
 * Lambda
