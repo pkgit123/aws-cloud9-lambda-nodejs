@@ -7,7 +7,7 @@ Notes from AWS Tutorial Debug Serverless App with IDE in Cloud9
 ### Files in repo:
 1. `index.js` - this is NodeJS code to parse datetime event data within Lambda, from tutorial step 3.  
     * This function takes an incoming payload with an option value of date or time. If date is specified, you must also specify a period value of yesterday, today, or tomorrow. The function then returns the corresponding month, day, and year. If, however, an option value of time is specified, the function returns the current hour, minute, and second. 
-1. `payload.js` - this is payload to supply to lambd function when running globally.  See multiple versions of the payload to compare results.
+1. `payload.js` - this is payload to supply to lambd function when running globally.  See `more-payloads` folder for more versions of the payload to compare results running in Lambda.
 
 ### AWS Infrastructure: 
 * Cloud9
